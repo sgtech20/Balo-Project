@@ -298,6 +298,59 @@ nav{
    left: 70px;
 }
 
+/* section three start here  */
+.section-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.section-three > div > h2{
+    width:70% ;
+    font-weight: bolder;
+    font-size: 2.5em;
+    line-height: 1.5;
+}
+.section-three > div > p{
+    width:70% ;
+    font-size: 1em;
+    color: rgb(183, 182, 182);
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.section-three > div > a{
+    text-decoration: none;
+    color: #000;
+    background-color: aqua;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.circle{
+    position: relative;
+    left: -100px;
+    top: 170px;
+}
+.online-analysis div > span > span > span{
+    border:  2px solid rgb(65, 112, 112);
+    padding: 10%;
+    height: 100%;
+    border-radius: 50%;
+}
+.online-analysis div > span > span{
+    border:  2px solid rgb(65, 112, 112);
+    padding: 30% 20%;
+    border-radius: 50%;
+}
+.first-circle{
+    border:  5px solid rgb(65, 112, 112);
+    padding: 60% 30%;
+    height: 100%;
+    border-radius: 50%;
+}
+/* section three end here  */
+
 /* main styling ends here  */
 
 /* media query start here  */
@@ -434,9 +487,17 @@ nav{
 }
 
 /* section two  */
+.sec-two > div > div > .last-trans{
+    background: linear-gradient(to right,  gray,  rgb(28, 28, 43));
+    padding:30px;
+    width: 60%;
+    border-radius: 10px;
+    position: relative;
+    top: 220px;
+}
 .paypal-payment-box{
     position: relative;
-    top: -320px;
+    top: -240px;
     left: 230px;
 }
 .payment-notf{
@@ -446,7 +507,7 @@ nav{
     padding: 5px;
     border-radius: 10px ;
     position: relative;
-    top: -120px;
+    top: -50px;
     left: 80px;
 }
 .fa-check{
@@ -456,6 +517,45 @@ nav{
     border-radius: 50%;
     margin-right: 10px;
 }
+
+.billing-control > h2{
+    font-weight: bolder;
+    font-size: 2.5em;
+    line-height: 1.5;
+}
+.billing-control > p{
+    font-size: 1em;
+    line-height: 1.5;
+    color: rgb(146, 151, 156);
+}
+.billing-control > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.billing-control > div > a{
+    text-decoration: none;
+    color: rgb(146, 151, 156);
+    font-size: .5em;  
+}
+.billing-control > div > a:first-child{
+    margin-right: 15px; 
+}
+.billing-control > div > a > div > p > span{
+    color: white;
+    font-weight: bold;
+    font-size: 1.7em; 
+}
+.billing-control > div > a > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.billing-control > div > a > div > span > i{
+    margin-right: 10px;
+    font-size: 2em;
+    color: #fff;
+}
 @media screen and (max-width: 450px) {
     .mobile-screen > h1{
         display: block;
@@ -463,9 +563,9 @@ nav{
     html,body{
         width: 100%;
         height: 100%;
-        margin: auto;
-        height: 0;
-        overflow: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
     }
    nav{
         display: none;
