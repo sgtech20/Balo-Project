@@ -305,7 +305,6 @@ nav{
     align-items: center;
     width: 85%;
     margin: auto;
-    flex-wrap: wrap;
 }
 .section-three > div{
    margin-right: 30px;
