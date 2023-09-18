@@ -100,6 +100,9 @@ nav{
     transition-duration: .5s;
 }
 .mobile-nav-links > div > i{
+    font-size: 1.5em;
+}
+.mobile-nav-links > div > i:hover{
     transform:  rotate(90deg);
     transition-duration: .5s;
 }
