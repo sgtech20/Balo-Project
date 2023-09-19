@@ -694,6 +694,9 @@ footer > div:last-child > div:last-child > i{
     .mobile-screen > h1{
         display: none;
     }
+    .mobile-hero-img{
+        display: none;
+    }
     .hero-desc > p:first-child{
         font-size: .7em;
         background-color: rgb(45, 44, 44);
@@ -726,6 +729,9 @@ footer > div:last-child > div:last-child > i{
         display: none;
     }
     .mobile-screen > h1{
+        display: none;
+    }
+    .mobile-hero-img{
         display: none;
     }
     
@@ -919,6 +925,9 @@ footer > div:last-child > div:last-child > i{
     .mobile-nav-links{
         display: initial;
     }
+    .mobile-hero-img{
+        display: initial;
+    }
     nav > .hamburger{
         display: initial;
         background-color:rgb(68, 216, 216) ;
@@ -934,10 +943,9 @@ footer > div:last-child > div:last-child > i{
         display: none;
     }
     .hero-sec{
-        /* display: initial; */
         background-image: linear-gradient(to right, rgb(14, 14, 35), rgb(14, 14, 35));
        font-size: .5em;
-       margin-top: -130px;
+       margin-top: -170px;
     }
     .hero-desc{
         width: 50%;
@@ -946,7 +954,7 @@ footer > div:last-child > div:last-child > i{
     }
     .mobile-hero-img > img{
         z-index: 5;
-        width: 100px;
+        width: 200px;
     }
     .hero-desc > p:first-child{
         font-size: .5em;
@@ -958,9 +966,117 @@ footer > div:last-child > div:last-child > i{
         line-height: 2em;
         text-align: center;
     }
+    .main-hero-desc{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        line-height: 2.5em;
+    }
+    .main-hero-desc > h1{
+        font-size: 2.5em;
+    }
+    .main-hero-desc > h1 > span{
+     color: aqua;
+    }
+    .CTA{
+        width: 100%;
+        border: 2px solid aqua;
+        padding: 3px 8px;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 50%;
+        position: relative;
+        right: -10px;
+        top: -30px;
+        color: aqua;
+        font-size: .8em;
+    }
+    .userNum{
+        margin: auto;
+        margin-top: -80px;
+        width: 85%;
+    }
+    .userNum > p{
+        font-size: .5em;
+        color: aqua;
+    }
+    .userNum > p > span{
+        color: white;
+        font-weight: bolder;
+        font-size: 2.5em;
+        margin-right: 2px;
+    }
+    .userNum > p:first-child{
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+    .userNum > p:nth-child(2){
+        margin-right: 15px;
+        padding-right: 0px;
+    }
 
+
+    .sect-one{
+        display: block;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .sect-one-desc > h2{
+        font-size: 1.5em;
+    }
+    .sect-one-desc{
+        margin-bottom: 15px;
+    }
+    .sect-one-desc > p{
+        font-size: .8em;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sect-one-desc > a{
+        font-size: .6em;
+        font-weight: bolder;
+        padding: 5px 15px;
+    }
+    .sec-one-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .sec-one-details > div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .sec-one-details > div:hover{
+        background-color: gray;
+        border-radius: 10px;
+        box-sizing: border-box;
+        transition-duration: .7s;
+    
+    }
+    
+    .sec-one-details > div > div > i{
+        margin-right: 10px;
+        color: aqua;
+        padding: 8px;
+        border-radius: 50%;
+        background-color: rgba(0, 255, 255, .1);
+        font-size: .7em;
+    }
+    .sec-one-details > div > div > p{
+        font-size: .6em;
+        color: rgb(146, 151, 156);
+        line-height:1.5;
+    }
+    .sec-one-details > div > div > h4{
+        font-size: .8em;
+    }
+ 
 }
     
-
 
 /* media query end here  */
