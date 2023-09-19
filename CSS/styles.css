@@ -313,7 +313,7 @@ nav{
   align-items: center;
   width: 70%;
 }
-.paypal-payment-box > div > i{
+.paypal-payment-box > div > div > i{
     background-color: #fff;
     color: rgb(34, 34, 93);
     font-size: 2em;
@@ -1075,8 +1075,159 @@ footer > div:last-child > div:last-child > i{
     .sec-one-details > div > div > h4{
         font-size: .8em;
     }
- 
+    .sec-two > div{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+    }
+    .sec-two > div > div{
+        width: 70%;
+    }
+    .sec-two > div > div > .last-trans{
+        background: linear-gradient(to right,  gray,  rgb(28, 28, 43));
+        padding:20px;
+        width: 100%;
+        border-radius: 10px;
+        position: relative;
+        top: 150px;
+    }
+    .last-trans > h3{
+        font-size: 1em;
+    }
+    .last-trans-desc{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .last-trans-desc > div:first-child{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .last-trans-desc-2{
+        line-height: .1em;
+        width: 100%;
+    }
+    .last-trans-desc-2 > p{
+        color: rgb(183, 182, 182);
+        font-size: .6em;
+    }
+    .last-trans-desc > div > div > i{
+        font-size: 1.5em;
+        margin-right: 15px;
+        border-radius: 50%;
+    }
+    .caret-down{
+        font-size: .7em;
+        color: red;
+    }
+    .caret-up{
+        font-size: .7em;
+        color: green;
+    }
+    .netflix-logo{
+        width: 20%;
+        background-color: #fff;
+        border-radius: 50%;
+        font-size: .3em;
+        padding: 2px 10px;
+        color: rgb(155, 48, 66);
+        margin-right: 7px;
+        text-align: center;
+    }
+    .manulife-cash-logo{
+        width: 20%;
+        background-color: #fff;
+        border-radius: 50%;
+        font-size: .3em;
+        padding: 10px  2px;
+        color: rgb(155, 48, 66);
+        margin-right: 7px;
+        text-align: center;
+    }
+.last-trans-desc > div:last-child > span:last-child{
+    font-size: .7em;
 }
+    .paypal-payment-box{
+        padding:30px;
+        width: 50%;
+        border-radius: 10px;
+        position: relative;
+        top: -210px;
+        left: 150px;
+    }
+    .paypal-payment-box > div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: -10px;
+      /* width: -110px; */
+       
+    }
+    .paypal-payment-box > div > div > i{
+        font-size: 1.2em;
+        padding: 10px;
+        border-radius: 50%;
+        position: relative;
+        top: 15px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .paypal-payment-box-desc{
+        font-size: .7em;
+        line-height: .5em;
+    }
+    .paypal-payment-box-desc > p{
+        font-size: .8em;
+        color: rgb(183, 182, 182);
+    }
     
-
+    .paypal-payment-box > div > .paypal-payment-box-desc{
+        font-size: .6em;
+        line-height: .3em;
+        position: relative;
+        left: -70px;
+        margin-bottom: 20px;
+    }
+    .palpay-price-box{
+        font-size: .7em;
+        
+    }
+    .paypal-payment-box > div > div > a{
+        padding: 3px 6px;
+        position: relative;
+        left: -30px;
+    }
+    
+    .paypal-payment-box > a{
+        font-size: .7em;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: #000;
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 5px 10px;
+        
+    }
+    
+    .payment-notf{
+        width: 100%;
+        font-size: .6em;
+       position: relative;
+       top: -85px;
+       left: 70px;
+    }
+    .payment-notf > span > i{
+        font-size: .6em;
+    }
+    .billing-control{
+        font-size: .7em;
+        line-height: 1em;
+        margin-top: -30px;
+        position: relative;
+        left: 0px;
+    }
+} 
 /* media query end here  */
