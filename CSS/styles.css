@@ -112,6 +112,7 @@ nav{
 .hero-sec{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-image: url(../images/robot.png);
     background-size: contain;
     background-position: bottom right;
@@ -119,6 +120,7 @@ nav{
     padding: 20px;
     height: 450px;
     margin: auto;
+   
 }
 .hero-img > img{
     width: 50%;
@@ -910,6 +912,10 @@ footer > div:last-child > div:last-child > i{
         padding: 0;
         overflow-x: hidden;
     }
+    body{
+        width: 90%;
+        margin: auto;
+    }
     .mobile-nav-links{
         display: initial;
     }
@@ -927,9 +933,34 @@ footer > div:last-child > div:last-child > i{
     .nav-links{
         display: none;
     }
+    .hero-sec{
+        /* display: initial; */
+        background-image: linear-gradient(to right, rgb(14, 14, 35), rgb(14, 14, 35));
+       font-size: .5em;
+       margin-top: -130px;
+    }
+    .hero-desc{
+        width: 50%;
+        margin-left: 10px;
+        line-height: 2em;
+    }
+    .mobile-hero-img > img{
+        z-index: 5;
+        width: 100px;
+    }
+    .hero-desc > p:first-child{
+        font-size: .5em;
+        background-color: rgb(45, 44, 44);
+        width: 70%;
+        padding: 5px 5px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        line-height: 2em;
+        text-align: center;
+    }
 
 }
     
-/* main styling ends here  */
+
 
 /* media query end here  */
