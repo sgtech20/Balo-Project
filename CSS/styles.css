@@ -20,6 +20,9 @@
     }
    
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: rgb(14, 14, 35);
